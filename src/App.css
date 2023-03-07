@@ -2,6 +2,7 @@ h1 {
   font-size: 200px;
   line-height: 140px;
   margin-top: 200px;
+  transform: scale(1.05, 1);
 }
 
 h2 {
