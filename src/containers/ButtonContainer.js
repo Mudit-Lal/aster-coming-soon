@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import VisitIcon from "../assets/visit.svg";
+import VisitIcon from "../components/UI/VisitLogo";
 
 import Button from "../components/Button";
 import ExtendedButton from "../components/ExtendedButton";
@@ -72,7 +72,7 @@ function ButtonContainer() {
           container
         "
     >
-      <Button onClick={() => {}}>
+      <Button>
         <div
           className="
               flex
@@ -81,13 +81,10 @@ function ButtonContainer() {
               justify-between
             "
         >
-          <a
-            className="hover:underline"
-            href="https://www.instagram.com/aster.vision/"
-          >
-            See our work
-          </a>
-          <img src={VisitIcon} alt="Icon to open Instagram url." />
+          <a className="pr-1" href="https://www.instagram.com/aster.vision/">See our work</a>
+          <div className="h-max my-auto mr-1">
+            <VisitIcon />
+          </div>
         </div>
       </Button>
       <div
