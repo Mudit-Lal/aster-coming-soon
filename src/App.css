@@ -30,7 +30,7 @@ hr {
 
 @media (prefers-reduced-motion: no-preference) {
   #background-logo {
-    animation: Logo-spin infinite 20s linear;
+    animation: Logo-spin infinite 80s linear;
   }
 }
 
