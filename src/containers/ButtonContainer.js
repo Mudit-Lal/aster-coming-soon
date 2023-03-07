@@ -72,7 +72,24 @@ function ButtonContainer() {
           container
         "
     >
-      <Button>
+      <button
+        className="
+          min-w-[163px]
+          min-h-normal
+          pl-[20px]
+          pr-[18px]
+          rounded-small
+        bg-primary
+        hover:bg-white
+        hover:text-primary
+          text-sm
+        text-white
+          font-visbyCF
+          font-medium
+          fill-white
+          hover:fill-primary
+        "
+      >
         <div
           className="
               flex
@@ -81,12 +98,14 @@ function ButtonContainer() {
               justify-between
             "
         >
-          <a className="pr-1" href="https://www.instagram.com/aster.vision/">See our work</a>
+          <a className="pr-1" href="https://www.instagram.com/aster.vision/">
+            See our work
+          </a>
           <div className="h-max my-auto mr-1">
-            <VisitIcon />
+            <VisitIcon className="-pr-[1px]" />
           </div>
         </div>
-      </Button>
+      </button>
       <div
         className="
             min-w-xs

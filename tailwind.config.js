@@ -31,7 +31,7 @@ module.exports = {
     },
     minWidth: {
       xs: "25px",
-      normal: "166px",
+      normal: "170px",
       extended: "510px",
       logo: "40px",
       "container-normal": "365px",
@@ -49,7 +49,7 @@ module.exports = {
       width: {
         xs: "25 px",
         sm: "130 px",
-        normal: "166 px",
+        normal: "170 px",
         extended: "510 px",
         logo: "40 px",
       },

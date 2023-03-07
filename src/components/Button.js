@@ -16,7 +16,8 @@ const button = (props) => (
       font-visbyCF
       font-medium
       fill-white
-      hover:fill-primary 
+      hover:fill-primary
+      {props.className}
       "
     disabled={props.disabled}
     onClick={props.onClick}
