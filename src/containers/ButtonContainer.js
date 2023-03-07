@@ -69,6 +69,7 @@ function ButtonContainer() {
           font-medium
           fill-white
           hover:fill-primary
+          duration-500
         "
       >
         <div
