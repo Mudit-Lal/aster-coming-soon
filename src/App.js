@@ -10,9 +10,10 @@ function App() {
         pt-45
         h-screen
         w-screen
+        -z-50
         "
     >
-      <nav className="mx-auto w-max">
+      <nav className="mx-auto w-max z-50">
         <img
           className="
           min-w-logo
@@ -22,7 +23,7 @@ function App() {
           alt="Aster logo"
         />
       </nav>
-      <body className="mx-auto w-max text-center">
+      <body className="mx-auto w-max text-center z-50 relative">
         <div>
           <h1
             className="
@@ -77,6 +78,7 @@ function App() {
         h-auto
         fixed
         opacity-5
+        z-0
       "
         src={Logo}
         alt="background logo"
