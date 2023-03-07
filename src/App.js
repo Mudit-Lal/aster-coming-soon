@@ -44,7 +44,7 @@ function App() {
             Based, in Bharat 🇮🇳
           </h2>
         </div>
-        <hr className="border-white" />
+        <hr className="border-white rounded-small" />
         <div>
           <h3
             className="
