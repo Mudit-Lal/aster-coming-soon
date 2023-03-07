@@ -7,7 +7,6 @@ import ExtendedButton from "../components/ExtendedButton";
 import Divider from "../components/Divider";
 
 function ButtonContainer() {
-
   const expandedContactButton = (
     <ExtendedButton>
       <div
@@ -26,7 +25,7 @@ function ButtonContainer() {
         >
           +91 9129160070
         </span>
-        <Divider/>
+        <Divider />
         <a
           className="
                 hover:underline
@@ -36,7 +35,7 @@ function ButtonContainer() {
         >
           +1 (602) 693-2521
         </a>
-        <Divider/>
+        <Divider />
         <a
           className="
                 hover:underline
@@ -64,7 +63,7 @@ function ButtonContainer() {
   return (
     <div
       className="
-          py-20
+          pt-6
           max-w-container-extended
           min-w-container-extended
           flex
