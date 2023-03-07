@@ -63,19 +63,24 @@ function App() {
             italic
             "
           >
-            Stat tuned, new website coming soon!
+            Stay tuned, new website coming soon!
           </h4>
         </div>
         <div className="mx-auto w-max">
           <ButtonContainer />
         </div>
       </body>
-
-      {/* <div className="App">
-        <header className="primary App-header">
-          <img src={Logo} className="App-logo" alt="logo" />
-        </header>
-      </div> */}
+      <img
+        id="background-logo"
+        className="
+        w-screen
+        h-auto
+        fixed
+        opacity-5
+      "
+        src={Logo}
+        alt="background logo"
+      />
     </div>
   );
 }

@@ -1,9 +1,3 @@
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 h1 {
   font-size: 200px;
   line-height: 140px;
@@ -30,7 +24,17 @@ hr {
   min-width: 690px;
 }
 
-@keyframes App-logo-spin {
+#background-logo {
+  top: 30%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #background-logo {
+    animation: Logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes Logo-spin {
   from {
     transform: rotate(0deg);
   }
