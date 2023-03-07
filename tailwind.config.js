@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     colors: {
       primary: "#924EFF",
+      'primary-hover': "#6F3BC2",
+      'primary-alt': "#BE95FF",
       white: "#FFFFFF",
+      'off-white': "#F6EFFF",
+      black: "#000000",
       gray: "#A8A8A8",
     },
     fontFamily: {
@@ -22,10 +26,27 @@ module.exports = {
       none: "0",
       small: "5px",
     },
+    borderWidth: {
+      '1': '1px',
+      '2': '2px',
+    },
+    minWidth: {
+      'normal': '170px',
+      'extended': '510px',
+    },
+    minHeight: {
+      'sm': "34 px",
+      'normal': "44 px",
+    },
     extend: {
       width: {
+        sm: "130 px",
         normal: "170 px",
         extended: "510 px",
+      },
+      height: {
+        sm: "34 px",
+        normal: "44 px",
       },
     },
   },
