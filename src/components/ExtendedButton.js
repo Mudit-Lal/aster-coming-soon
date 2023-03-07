@@ -9,7 +9,7 @@ const extendedButton = (props) => (
       py-1
       rounded-small
     bg-white
-    hover:bg-off-white
+      font-medium
       text-sm
     text-primary
       font-visbyCF

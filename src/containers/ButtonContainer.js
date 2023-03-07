@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import VisitIcon from "../assets/visit.svg";
+import VisitIcon from "../components/UI/VisitLogo";
 
 import Button from "../components/Button";
 import ExtendedButton from "../components/ExtendedButton";
@@ -17,32 +17,13 @@ function ButtonContainer() {
               justify-between
             "
       >
-        <span
-          className="
-                hover:underline
-                py-1
-              "
-        >
-          +91 9129160070
-        </span>
+        <span className="py-1">+91 9129160070</span>
         <Divider />
-        <a
-          className="
-                hover:underline
-                py-1
-              "
-          href="tel:602-693-2521"
-        >
+        <a className="py-1" href="tel:602-693-2521">
           +1 (602) 693-2521
         </a>
         <Divider />
-        <a
-          className="
-                hover:underline
-                py-1
-              "
-          href="mailto:mudit@aster.vision"
-        >
+        <a className="py-1" href="mailto:mudit@aster.vision">
           mudit@aster.vision
         </a>
       </div>
@@ -72,7 +53,25 @@ function ButtonContainer() {
           container
         "
     >
-      <Button onClick={() => {}}>
+      <button
+        className="
+          min-w-[163px]
+          min-h-normal
+          pl-[20px]
+          pr-[18px]
+          rounded-small
+        bg-primary
+        hover:bg-white
+        hover:text-primary
+          text-sm
+        text-white
+          font-visbyCF
+          font-medium
+          fill-white
+          hover:fill-primary
+          duration-500
+        "
+      >
         <div
           className="
               flex
@@ -81,15 +80,14 @@ function ButtonContainer() {
               justify-between
             "
         >
-          <a
-            className="hover:underline"
-            href="https://www.instagram.com/aster.vision/"
-          >
+          <a className="pr-1" href="https://www.instagram.com/aster.vision/">
             See our work
           </a>
-          <img src={VisitIcon} alt="Icon to open Instagram url." />
+          <div className="h-max my-auto mr-1">
+            <VisitIcon className="-pr-[1px]" />
+          </div>
         </div>
-      </Button>
+      </button>
       <div
         className="
             min-w-xs

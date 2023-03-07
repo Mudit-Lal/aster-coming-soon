@@ -9,10 +9,15 @@ const button = (props) => (
       py-2
       rounded-small
     bg-primary
-    hover:bg-primary-hover
+    hover:bg-white
+    hover:text-primary
       text-sm
     text-white
       font-visbyCF
+      font-medium
+      fill-white
+      hover:fill-primary
+      {props.className}
       "
     disabled={props.disabled}
     onClick={props.onClick}
