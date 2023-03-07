@@ -17,32 +17,13 @@ function ButtonContainer() {
               justify-between
             "
       >
-        <span
-          className="
-                hover:underline
-                py-1
-              "
-        >
-          +91 9129160070
-        </span>
+        <span className="py-1">+91 9129160070</span>
         <Divider />
-        <a
-          className="
-                hover:underline
-                py-1
-              "
-          href="tel:602-693-2521"
-        >
+        <a className="py-1" href="tel:602-693-2521">
           +1 (602) 693-2521
         </a>
         <Divider />
-        <a
-          className="
-                hover:underline
-                py-1
-              "
-          href="mailto:mudit@aster.vision"
-        >
+        <a className="py-1" href="mailto:mudit@aster.vision">
           mudit@aster.vision
         </a>
       </div>

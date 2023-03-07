@@ -7,10 +7,8 @@ module.exports = {
     },
     colors: {
       primary: "#924EFF",
-      "primary-hover": "#6F3BC2",
       "primary-alt": "#BE95FF",
       white: "#FFFFFF",
-      "off-white": "#F6EFFF",
       black: "#000000",
       gray: "#A8A8A8",
     },
