@@ -9,4 +9,26 @@ body {
 @font-face {
   font-family: "Visby CF";
   src: url("../public/fonts/VisbyCF-Medium.otf");
+  font-style: medium
+}
+
+@font-face {
+  font-family: "Visby CF";
+  src: url("../public/fonts/VisbyCF-Bold.otf");
+  font-style: bold
+}
+
+@font-face {
+  font-family: "Butler";
+  src: url("../public/fonts/Butler/Butler_Regular.otf");
+}
+
+.flag-image {
+  height: 30px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+hr {
+  margin: 20px 0 25px 0;
 }

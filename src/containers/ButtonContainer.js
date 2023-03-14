@@ -31,7 +31,6 @@ function ButtonContainer() {
   );
 
   let toggleButton = () => {
-    console.log("Called");
     setContactButton(expandedContactButton);
   };
 

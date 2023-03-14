@@ -1,4 +1,5 @@
 import Logo from "./assets/logo.svg";
+import Flag from "./assets/flag.png";
 import ButtonContainer from "./containers/ButtonContainer";
 import "./App.css";
 
@@ -34,15 +35,18 @@ function App() {
           >
             Aster
           </h1>
-          <h2
-            className="
+          <div className={'flex justify-center items-end mt-3'}>
+            <h2
+                className="
             text-primary
               font-visbyCF
               font-bold
             "
-          >
-            Based, in Bharat
-          </h2>
+            >
+              Based, in Bharat
+            </h2>
+            <img className={'flag-image'} src={'https://em-content.zobj.net/thumbs/120/whatsapp/326/flag-india_1f1ee-1f1f3.png'} alt={'flag'} />
+          </div>
         </div>
         <hr className="border-white rounded-small" />
         <div>
