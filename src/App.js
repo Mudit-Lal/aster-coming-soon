@@ -41,7 +41,7 @@ function App() {
               font-bold
             "
           >
-            Based, in Bharat 🇮🇳
+            Based, in Bharat
           </h2>
         </div>
         <hr className="border-white rounded-small" />
